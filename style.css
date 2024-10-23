@@ -1,9 +1,9 @@
-body {
-    background: url(https://static9.depositphotos.com/1260975/1139/v/450/depositphotos_11390638-stock-illustration-numbers-background.jpg);
+body { 
+    background-image: url(https://media.istockphoto.com/vectors/illustrations-of-numbers-backdrop-decoration-wallpaper-web-vector-id1125259039?k=20&m=1125259039&s=170667a&w=0&h=sHFrJ1NfmdPRag1XwozeHlKz1xTvOMcrpSt1mwXctUU=);
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
+
 h1 {
     text-align: center;
     margin-top: 30px;
