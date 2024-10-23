@@ -1,0 +1,52 @@
+body {
+    background: url(https://static9.depositphotos.com/1260975/1139/v/450/depositphotos_11390638-stock-illustration-numbers-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+}
+    
+.calculadora {
+    width: 314px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#pantalla {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+input[type="button"] {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer
+}
+
+    input[type="button"]:hover {
+    background-color: #ddd
+}
+    
+    
+    input[type="button"]:last-child {
+    margin-right: 0
+}
+
+

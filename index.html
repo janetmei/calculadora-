@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONO -->
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/013/127/325/original/hand-drawn-calculator-illustration-png.png" type="imagen">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+        <br>
+        <input type="button" value="1" onclick="agregarALaPantalla('1')">
+        <input type="button" value="2" onclick="agregarALaPantalla('2')">
+        <input type="button" value="3" onclick="agregarALaPantalla('3')">
+        <input type="button" value="+" onclick="agregarALaPantalla('+')">
+        <br>
+        <input type="button" value="4" onclick="agregarALaPantalla('4')">
+        <input type="button" value="5" onclick="agregarALaPantalla('5')">
+        <input type="button" value="6" onclick="agregarALaPantalla('6')">
+        <input type="button" value="-" onclick="agregarALaPantalla('-')">
+        <br>
+        <input type="button" value="7" onclick="agregarALaPantalla('7')">
+        <input type="button" value="8" onclick="agregarALaPantalla('8')">
+        <input type="button" value="9" onclick="agregarALaPantalla('9')">
+        <input type="button" value="*" onclick="agregarALaPantalla('*')">
+        <br>
+        <input type="button" value="0" onclick="agregarALaPantalla('0')">
+        <input type="button" value="." onclick="agregarALaPantalla('.')">
+        <input type="button" value="/" onclick="agregarALaPantalla('/')">
+        <input type="button" value="=" onclick="calcular()">
+        <br>
+        <input type="button" value="C" onclick="limpiarPantalla()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
