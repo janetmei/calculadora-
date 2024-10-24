@@ -2,7 +2,6 @@
 
 
 ### Este proyecto es una calculadora web simple desarrollada con HTML, CSS y JavaScript. Permite realizar operaciones aritméticas básicas como suma,resta, multiplicación y división. La interfaz es intuitiva y está diseñada para ser fácilmente interactiva.
-
 ## Funcionalidades:
 ### Suma, resta, multiplicación y división. Interfaz amigable con botones para ingresar números y operadores. Muestra en tiempo real los cálculos en pantalla.
 ### Diseño responsive que se adapta a diferentes tamaños de pantalla.
